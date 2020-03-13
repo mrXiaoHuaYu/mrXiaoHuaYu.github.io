@@ -476,32 +476,32 @@
 <h1 id="上传本地项目到Git-Gitee"><a href="#上传本地项目到Git-Gitee" class="headerlink" title="上传本地项目到Git/Gitee"></a>上传本地项目到Git/Gitee</h1><ol>
 <li>初始化git</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">git</span> <span class="string">init</span></span><br></pre></td></tr></table></figure>
 
 <ol start="2">
 <li>将项目的所有文件添加到缓存中（注意add后有空格）</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">git</span> <span class="string">add</span> <span class="string">.</span></span><br></pre></td></tr></table></figure>
 
 <ol start="3">
 <li>将缓存中的文件Commit到git库</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;插入你的描述&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">git</span> <span class="string">commit</span> <span class="string">-m</span> <span class="string">"插入你的描述"</span></span><br></pre></td></tr></table></figure>
 
 <ol start="4">
 <li>将本地的库链接到远程仓库</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 远程仓库地址</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">git</span> <span class="string">remote</span> <span class="string">add</span> <span class="string">origin</span> <span class="string">远程仓库地址</span></span><br></pre></td></tr></table></figure>
 
 <ol start="5">
 <li>拉取远程仓库代码</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">git</span> <span class="string">pull</span> <span class="string">origin</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 
 <ol start="6">
 <li>提交代码</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">git</span> <span class="string">push</span> <span class="string">origin</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 
 <h1 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h1><ol>
 <li>fatal: remote origin already exists.解决方法</li>
